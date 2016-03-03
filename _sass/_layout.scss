@@ -17,13 +17,14 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color: $grey-color;
+    color: #424242;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #424242;
     }
 }
+
 
 .site-nav {
     float: right;
