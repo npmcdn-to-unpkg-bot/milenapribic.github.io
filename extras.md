@@ -4,8 +4,7 @@ title: Extras
 permalink: /extras/
 ---
 
-Contributor for: 
-* sparetime.design
+####Contributor at:
 
-Member of: 
+* sparetime.design
 * AIGA
