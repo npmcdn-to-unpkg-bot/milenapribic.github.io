@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Visual
+permalink: /visual/
 ---
 
 ###does this work
