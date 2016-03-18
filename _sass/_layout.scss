@@ -174,7 +174,7 @@
 }
 
 .page-heading {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 300;
     text-align: center;
     color: #457c39;
@@ -183,9 +183,11 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    display: flex;
 
     > li {
-        margin-bottom: $spacing-unit;
+        // margin-bottom: $spacing-unit;
+        margin: $spacing-unit;
     }
 }
 
@@ -199,6 +201,22 @@
     font-size: 24px;
 }
 
+//main page
+
+.btn-main{
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: none;
+    background-color: #fff;
+}
+.hackeryou h2{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 
 
 /**
@@ -209,7 +227,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 24px;
     letter-spacing: -1px;
     line-height: 1;
 
