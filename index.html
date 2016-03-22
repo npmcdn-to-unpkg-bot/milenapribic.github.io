@@ -8,23 +8,23 @@ layout: default
 
   <button class="btn-main">Let's Chat</button>
 
-<section class="hackeryou">
-  <!-- <h2>Front-End Bootcamp [Apr 2014-Jun 2014]</h2> -->
+
+  <h2 class="code-heading">Code</h2>
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li class="list-items">
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-         <!-- {% if post.featuredImg %}
+         {% if post.featuredImg %}
             <div class="img__div">
               <img src="{{post.featuredImg}}" class="img__div--img" />
             </div>
-            {% endif %} -->
+            {% endif %}
         </h3>
       </li>
     {% endfor %}
   </ul>
-  </section>
 
+<h2 class="code-heading">Visual</h2>
 
 </div>
