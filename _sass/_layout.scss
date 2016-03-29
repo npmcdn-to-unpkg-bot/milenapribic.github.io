@@ -190,7 +190,7 @@
     > li {
         // margin-bottom: $spacing-unit;
         // margin: $spacing-unit;
-        width: 28%;
+        width: 33.33%;
     }
 }
 
@@ -206,17 +206,29 @@
 
 //main page
 
+.hero{
+    padding: 25px 0;
+    text-align: center;
+    h1{
+        letter-spacing: .6em;
+    }
+}
+
 .btn-main{
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 5px solid rgba(236, 116, 144, 0.54);
     box-shadow: none;
     background-color: #fff;
+    padding: 10px 20px;
+    margin: 25px 0 auto;
 }
 .hackeryou h2{
     font-size: 18px;
     text-transform: uppercase;
 }
 
+.img__div{
+    border: 1px solid black;
+}
 .img__div--img{
     width: 100%;
 }
@@ -266,7 +278,4 @@
     }
 }
 
-.code-heading{
-    text-align: center;
-}
 

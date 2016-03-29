@@ -3,28 +3,29 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">I'm Milena, a Product Designer with IBM Design in Austin, Texas. I'm focused on dynamic, user-friendly designs.</h1>
+<section class="hero">
+  <h1 class="page-heading">I'm Milena, a Product Designer with IBM Design in Austin, Texas. I'm focused on dynamic, user-friendly designs. </h1>
 
   <button class="btn-main">Let's Chat</button>
+</section>
 
+  <h2 class="code-heading"> Code</h2>
 
-  <h2 class="code-heading">Code</h2>
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="list-items">
         <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-         {% if post.featuredImg %}
+          <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.featuredImg %}
             <div class="img__div">
               <img src="{{post.featuredImg}}" class="img__div--img" />
             </div>
-            {% endif %}
+            {% endif %}</a>
         </h3>
       </li>
     {% endfor %}
   </ul>
 
-<h2 class="code-heading">Visual</h2>
-
+<h2 class="code-heading"> Visual</h2>
+<p>coming soon.</p>
 </div>
