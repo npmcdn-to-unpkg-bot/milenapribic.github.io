@@ -6,25 +6,24 @@ layout: default
 <section class="hero">
   <h1 class="page-heading">I'm Milena, a Product Designer with IBM Design in Austin, Texas. I'm focused on dynamic, user-friendly designs. </h1>
 
-  <button class="btn-main">Let's Chat</button>
+  <button class="btn-main"><a href="mailto:hello@milena.io">Let's Chat</a></button>
 </section>
 
   <h2 class="code-heading"> Code</h2>
 
-  <ul class="post-list">
+  <div class="grid">
     {% for post in site.posts %}
-      <li class="list-items">
-        <h3>
+    <div class="grid-sizer"></div>
+      <div class="grid-item">
           <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.featuredImg %}
             <div class="img__div">
               <img src="{{post.featuredImg}}" class="img__div--img" />
             </div>
             {% endif %}</a>
-        </h3>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 
 <h2 class="code-heading"> Visual</h2>
 <p>coming soon.</p>

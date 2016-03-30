@@ -164,6 +164,32 @@
     }
 }
 
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: right;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+html { overflow-y: scroll; }
+
+
 
 
 /**
@@ -229,9 +255,9 @@
 .img__div{
     border: 1px solid black;
 }
-.img__div--img{
-    width: 100%;
-}
+// .img__div--img{
+//     width: 100%;
+// }
 
 /**
  * Posts
