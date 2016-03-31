@@ -25,6 +25,10 @@
     }
 }
 
+.grid-item img { 
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
 
 .site-nav {
     float: right;
@@ -175,11 +179,12 @@
 
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
+  width: 31%;
 }
 
 .grid-item {
-  float: right;
+  float: left;
+  margin: 5px;
 }
 
 .grid-item img {
@@ -253,11 +258,8 @@ html { overflow-y: scroll; }
 }
 
 .img__div{
-    border: 1px solid black;
+    border: 3px solid lightgrey;
 }
-// .img__div--img{
-//     width: 100%;
-// }
 
 /**
  * Posts

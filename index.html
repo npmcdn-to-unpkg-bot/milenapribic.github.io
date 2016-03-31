@@ -15,9 +15,10 @@ layout: default
     {% for post in site.posts %}
     <div class="grid-sizer"></div>
       <div class="grid-item">
-          <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+      <div class="img__div">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.featuredImg %}
-            <div class="img__div">
+            
               <img src="{{post.featuredImg}}" class="img__div--img" />
             </div>
             {% endif %}</a>
